@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Kafedra sayti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Televizion texnologiyalar kafedrasi</h1>
+    <p>TVT</p>
+</header>
+
+<nav>
+    <a href="#about">Kafedra haqida</a>
+    <a href="#teachers">O‘qituvchilar</a>
+    <a href="#subjects">Fanlar</a>
+    <a href="#contact">Aloqa</a>
+</nav>
+
+<section id="about">
+    <h2>Kafedra haqida</h2>
+    <p>
+        Televizion texnologiyalari kafedrasi zamonaviy IT mutaxassislarini
+        tayyorlash bilan shug‘ullanadi.
+    </p>
+    <button onclick="showInfo()">Batafsil</button>
+    <p id="extraInfo"></p>
+</section>
+
+<section id="teachers">
+    <h2>O‘qituvchilar</h2>
+
+    <div class="teachers-container">
+
+        <div class="teacher-card">
+            <img src="images/aytmuratov.jpg" alt="B. Aytmuratov">
+            <h3>B. Aytmuratov</h3>
+            <p>Professor</p>
+        </div>
+
+        <div class="teacher-card">
+            <img src="images/qonarbaev.jpg" alt="D. Qonarbaev">
+            <h3>D. Qonarbaev</h3>
+            <p>Assistent o‘qituvchi</p>
+        </div>
+
+        <div class="teacher-card">
+            <img src="images/qaypov.jpg" alt="A. Qaypov">
+            <h3>A. Qaypov</h3>
+            <p>Assistent o‘qituvchi</p>
+        </div>
+
+        <div class="teacher-card">
+            <img src="images/nuratdinova.jpg" alt="Q. Nuratdinova">
+            <h3>Q. Nuratdinova</h3>
+            <p>Assistent o‘qituvchi</p>
+        </div>
+
+        <div class="teacher-card">
+            <img src="images/allamuratov.jpg" alt="T.Allamuratov">
+            <h3>T.Allamuratov</h3>
+            <p>Assistent o‘qituvchi</p>
+        </div>
+
+    </div>
+</section>
+<section id="subjects">
+    <h2 class="section-title">Fanlar va kurslar</h2>
+
+    <div class="courses-container">
+
+        <!-- 1-kurs -->
+        <div class="course-card">
+            <h3>1-kurs</h3>
+
+            <div class="group">
+                <h4>TVT uzb</h4>
+                <ul>
+                    <li>Dasturlash asoslari</li>
+                    <li>Algoritmlash</li>
+                    <li>Kompyuter savodxonligi</li>
+                    <li>Diskret matematika</li>
+                    <li>Axborot texnologiyalariga kirish</li>
+                </ul>
+            </div>
+
+            <div class="group">
+                <h4>TVT qq</h4>
+                <ul>
+                    <li>Kompyuter arxitekturasi</li>
+                    <li>Matematika</li>
+                    <li>Fizika</li>
+                    <li>Algoritmlash</li>
+                    <li>AKT</li>
+                </ul>
+            </div>
+
+            <div class="group">
+                <h4>TVT rus</h4>
+                <ul>
+                    <li>Dasturlash asoslari</li>
+                    <li>Chiziqli algebra</li>
+                    <li>AKT</li>
+                    <li>Matematika</li>
+                    <li>Algoritmlash</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 2-kurs -->
+        <div class="course-card">
+            <h3>2-kurs</h3>
+
+            <div class="group">
+                <h4>TVT uzb</h4>
+                <ul>
+                    <li>Web dasturlash</li>
+                    <li>Ma’lumotlar bazasi</li>
+                    <li>OOP</li>
+                    <li>Linux asoslari</li>
+                    <li>Amaliy dasturlash</li>
+                </ul>
+            </div>
+
+            <div class="group">
+                <h4>TVT qq</h4>
+                <ul>
+                    <li>Ma’lumotlar bazasi</li>
+                    <li>Web texnologiyalar</li>
+                    <li>Python dasturlash</li>
+                    <li>Algoritmlar</li>
+                    <li>Amaliy mashg‘ulot</li>
+                </ul>
+            </div>
+
+            <div class="group">
+                <h4>TVT rus</h4>
+                <ul>
+                    <li>OOP</li>
+                    <li>C++ dasturlash</li>
+                    <li>Ma’lumotlar tuzilmasi</li>
+                    <li>Web dasturlash</li>
+                    <li>Linux</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 3-kurs -->
+        <div class="course-card">
+            <h3>3-kurs</h3>
+
+            <div class="group">
+                <h4>MT uzb </h4>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Frontend texnologiyalar</li>
+                    <li>Backend asoslari</li>
+                    <li>API bilan ishlash</li>
+                    <li>Amaliy loyiha</li>
+                </ul>
+            </div>
+
+            <div class="group">
+                <h4>MT qq</h4>
+                <ul>
+                    <li>Tarmoq texnologiyalari</li>
+                    <li>Serverlar</li>
+                    <li>Axborot xavfsizligi</li>
+                    <li>TCP/IP</li>
+                    <li>Amaliy laboratoriya</li>
+                </ul>
+            </div>
+
+            <div class="group">
+                <h4>MT rus</h4>
+                <ul>
+                    <li>Mobil ilovalar</li>
+                    <li>Android</li>
+                    <li>UI/UX dizayn</li>
+                    <li>Flutter</li>
+                    <li>Amaliy loyiha</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 4-kurs -->
+        <div class="course-card">
+            <h3>4-kurs</h3>
+
+            <div class="group">
+                <h4>MT uzb</h4>
+                <ul>
+                    <li>Web dizayn</li>
+                    <li>Kompyuter ko'rish</li>
+                    <li>Raqamli media va TV texnologiyalari</li>
+                    <li>Social media marketing</li>
+                    <li>VR texnologiyalari</li>
+                </ul>
+            </div>
+<div class="group">
+                <h4>MT qq</h4>
+                <ul>
+                    <li>Web dizayn</li>
+                    <li>Kompyuter ko'rish</li>
+                    <li>Raqamli media va TV texnologiyalari</li>
+                    <li>Social media marketing</li>
+                    <li>VR texnologiyalari</li>
+                </ul>
+            </div>
+
+            <div class="group">
+                <h4>MT rus</h4>
+                <ul>
+                    <li>Web dizayn</li>
+                    <li>Kompyuter ko'rish</li>
+                    <li>Raqamli media va TV texnologiyalari</li>
+                    <li>Social media marketing</li>
+                    <li>VR texnologiyalari</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="contact">
+    <h2>Aloqa</h2>
+    <p>Manzil: Universitet, 3-bino</p>
+    <p>Email: kafedra@university.uz</p>
+    <p>Telefon: +998 90 123 45 67</p>
+</section>
+
+<footer>
+    <p>© 2025 Axborot texnologiyalari kafedrasi</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
